@@ -1,0 +1,363 @@
+{
+	"person": {
+		"firstName": "",
+		"middleName": "",
+		"lastName": "",
+		"age": "",
+		"id": "",
+		"tier": "",
+		"proeficiency": "",
+		"role": "",
+		"organization": "",
+		"value": {
+			"buy": "",
+			"sell": "",
+			"maintain": ""
+		},
+		"capital": {
+			"earn": "",
+			"spent": ""
+		},
+		"contract": {
+			"option": "",
+			"time": ""
+		},
+		"nacionality": "",
+		"region": "",
+		"morale": "",
+		"influency": {
+			"hinself": {
+				"audiency": "",
+				"team": "",
+				"staff": "",
+				"gamehouse": ""
+			},
+			"other": {
+				"audiency": "",
+				"team": "",
+				"staff": "",
+				"gamehouse": ""
+			}
+		},
+		"streaming": "",
+		"skill": {
+			"mechanical": "",
+			"technical": "",
+			"team": "",
+			"social": "",
+			"strategy": "",
+			"morale": "",
+			"consistency": ""
+		},
+		"mediaScore": "",
+		"titles": "",
+		"sponsors": "",
+		"condition": {
+			"luck": "",
+			"rest": "",
+			"stress": "",
+			"team": "",
+			"psichology": "",
+			"desease": {
+				"option": "",
+				"name": ""
+			}
+		}
+	},
+	"definitions": {
+		"persons": {
+			"0": {
+				"name": "manager",
+				"maxAge": "60",
+				"minAge": "25",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"1":{
+				"name": "ceo",
+				"maxAge": "60",
+				"minAge": "30",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"2":{
+				"name": "headCoach",
+				"maxAge": "40",
+				"minAge": "25",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"3":{
+				"name": "coach",
+				"maxAge": "40",
+				"minAge": "20",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"4":{
+				"name": "scout",
+				"maxAge": "40",
+				"minAge": "30",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"5":{
+				"name": "cooker",
+				"maxAge": "80",
+				"minAge": "25",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"6":{
+				"name": "psychologist",
+				"maxAge": "80",
+				"minAge": "40",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"7":{
+				"name": "cleaner",
+				"maxAge": "70",
+				"minAge": "30",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"8":{
+				"name": "media",
+				"maxAge": "40",
+				"minAge": "18",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"9":{
+				"name": "streamer",
+				"maxAge": "35",
+				"minAge": "18",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"10":{
+				"name": "player",
+				"maxAge": "26",
+				"minAge": "18",
+				"maxPersonRole": "10",
+				"personsInRole": "0"
+			},
+			"control": {
+				"lastRoleSelection": "x",
+				"countRolesFull": "0",
+				"testRoles": {
+					"manager": "no",
+					"ceo": "no",
+					"headCoach": "no",
+					"coach": "no",
+					"scout": "no",
+					"cooker": "no",
+					"cleaner": "no",
+					"psychologist": "no",
+					"player": "no",
+					"media": "no",
+					"streamer": "no"
+				}
+			}
+		}
+	},
+	"manager": {
+		"managing": ""
+	},
+	"ceo": {
+		"managing": ""
+	},
+	"headCoach": {
+		"coaching": "",
+		"playing": "",
+		"train": "",
+		"speciality": ""
+	},
+	"coach": {
+		"coaching": "",
+		"train": "",
+		"speciality": ""
+	},
+	"scout": {
+		"scouting": ""
+	},
+	"cooker": {
+		"coocking": ""
+	},
+	"psychologist": {
+		"psychologing": ""
+	},
+	"cleaner": {
+		"cleaning": ""
+	},
+	"media": {
+		"speciality": ""
+	},
+	"streamer": {
+		"streaming": ""
+	},
+	"player": {
+		"playing": "",
+		"train": "",
+		"position": ""
+	},
+	"organization": {
+		"name": "",
+		"games": "",
+		"money": "",
+		"sponsors": "",
+		"staff": {
+			"psychologyst": {
+				"individual": "",
+				"team": ""
+			},
+			"cooker": "",
+			"cleaner": "",
+			"manager": "",
+			"media": {
+				"social": "",
+				"marketing": "",
+				"mercandise": ""
+			},
+			"scout": "",
+			"streamers": "",
+			"headCoach": "",
+			"coaches": "",
+			"cer": "",
+			"structure": {
+				"gamehouse": "",
+				"car": ""
+			},
+			"players": ""
+		}
+	},
+	"game": {
+		"name": "",
+		"tier": "",
+		"score": "",
+		"titles": {
+			"tournament": "",
+			"tier": "",
+			"staff": ""
+		}
+	},
+	"tournament": {
+		"grade": "",
+		"name": "",
+		"region": "",
+		"tournamentStructure": ""
+	},
+	"conference": {
+		"tier": "",
+		"region": "",
+		"persons": "",
+		"organizations": "",
+		"information": {
+			"time": "",
+			"date": ""
+		},
+		"recruting": ""
+	},
+	"matches": {
+		"match": ""
+	},
+	"score": {
+		"scoring": ""
+	},
+	"schedule": {},
+	"gamehouse": {
+		"bedroom": 	"",
+		"computer": {
+			"tier": "",
+			"owner": ""
+		},
+		"space": "",
+		"energy": ""
+	},
+	"car": {
+		"brand": "",
+		"value": "",
+		"tier": "",
+		"ocupaccy": ""
+	},
+	"region": {
+		"name": "",
+		"tier": "",
+		"location": "",
+		"worldsSpots": ""
+	},
+	"location": {
+		"name": "",
+		"climate": "",
+		"audincy": "",
+		"monetary": "",
+		"expensive": ""
+	},
+	"tournamentStructure": {
+		"tier": "",
+		"schedule": "",
+		"type": {
+			"structure": "",
+			"brackets": ""
+		},
+		"chart": "",
+		"premiation": "",
+		"transference": ""
+	},
+	"randomizer": {
+		"persons": "",
+		"location": "",
+		"game": "",
+		"organization": "",
+		"region": "",
+		"conference": "",
+		"car": "",
+		"gamehouse": "",
+		"matches": "",
+		"luck": "",
+		"train": "",
+		"audiency": ""
+	},
+	"luck": {
+		"person": "",
+		"organization": "",
+		"region": "",
+		"audiency": "",
+		"retire": {
+			"age": "",
+			"chance": "",
+			"morale": "",
+			"psichology": ""
+		}
+	},
+	"luckStats": {
+		"good": {
+			"value": "",
+			"influency": "",
+			"morale": ""
+		},
+		"bad": {
+			"value": "",
+			"influency": "",
+			"morale": "",
+			"death": ""
+		},
+		"neutral": ""
+	},
+	"newThing": {},
+	"train": {
+		"type": "",
+		"score": "",
+		"points": "",
+		"pratical": {
+			"schedule": "",
+			"type": "",
+			"objecve": ""
+		},
+		"rival": "",
+		"win": ""
+	}
+}
+
+

@@ -1,0 +1,459 @@
+1.	What are objects?
+2.	What are their attributes?
+3.	What are their behaviors?
+4.	What are their collections? Or how are they grouped?
+5.	How do they interact? 
+6.	What is the development schedule
+
+moba
+3 tiers(1, 2, 3)
+
+objects
+	person
+	cooker
+	manager
+	ceo
+	headcoach
+	coach
+	scout
+	psychologist
+	cleaner
+	media
+	streamer
+	players
+	organization
+	tournament
+	conference
+	matches
+	score
+	conference
+	matches
+	tournament structure
+	score
+	schedule
+	gamehouse
+	region
+	location
+	game
+	car
+	randomizer
+	luck
+	leaves
+	new
+	scouting
+	train
+
+atributes
+------
+------person
+		info
+			name
+			id
+			age
+			class 
+				-technical head coach, coach, scout
+				-administrational manager, ceo
+				-staff cooker, psychologist, cleaner, media, , streamer
+				-player
+			organization
+			value
+				buy
+				sell
+				maintain
+			capital
+				earn
+				spent
+			contract
+			nacionality
+			region
+
+------manager
+		proeficiency
+		morale
+		influence
+
+------ceo
+		proeficiency
+		morale
+		influence
+
+------headcoach
+		proeficiency
+		morale
+		influence
+		streaming
+		skill
+			mechanical
+			technical
+			team
+			social
+			strategy
+			morale
+			consistency
+		influency
+			hinself
+				audiency
+				team
+				staff
+			others
+				audiency
+				team
+				staff
+		media
+		rank
+		results
+			team
+			individual
+		titles
+		sponsors
+		condition
+			rest
+			stress
+			burnout
+			disease
+			team
+			psichology
+
+------coach
+		proeficiency
+		morale
+		influence
+		streaming
+		skill
+			mechanical
+			technical
+			team
+			social
+			strategy
+			morale
+			consistency
+		influency
+			hinself
+				audiency
+				team
+				staff
+			others
+				audiency
+				team
+				staff
+		media
+		rank
+		results
+			team
+			individual
+		titles
+		sponsors
+		condition
+			rest
+			stress
+			burnout
+			disease
+			team
+			psichology
+
+------scout
+		proeficiency
+		morale
+		influence
+
+------cooker
+		proeficiency
+		morale
+		influence
+
+------psychologist
+		type
+		proeficiency
+		morale
+		influence
+
+------cleaner
+		proeficiency
+		morale
+		influence
+
+------media
+		proeficiency
+		morale
+		influence
+		capital
+			earned
+			spent
+
+------streamer
+		proeficiency
+		morale
+		influence
+		audiency
+
+------players
+		tier
+		score
+		position
+		benched
+		capitain
+		streaming
+		skill
+			mechanical
+			technical
+			team
+			social
+			strategy
+			morale
+			consistency
+		influency
+			hinself
+				audiency
+				team
+				staff
+			others
+				audiency
+				team
+				staff
+		media
+		rank
+		results
+			team
+			individual
+		titles
+		sponsors
+		condition
+			rest
+			stress
+			burnout
+			disease
+			team
+			psichology
+
+------organization
+		name
+		games
+			name
+			tier
+			score
+			titles
+		money
+		sponsors
+		staff
+			psychologist
+				individual x12
+					schedule
+				team x1
+					schedule
+			cooker x2
+			cleaner x2
+			manager x1
+			media
+				social media x
+				marketing x
+				merchandise x
+			scout x2
+			streamers x
+			head coach x1
+			coach x3
+			ceo x1
+		structure
+			gamehouse
+			car
+		players x5 + x3 bench
+
+
+------tournament
+		national
+			name
+			region
+			id
+			game
+			tournament structure
+		international
+			name
+			location
+			id
+			tournament structure
+		world
+			location
+			tournament structure
+
+------conference
+		tier
+		region
+		players
+			media 30%%
+			skill 25%
+			position 5%
+			titles 40%
+		persons
+		orgs
+		information
+			time
+			date
+			
+		
+------matches
+		team 5x5
+			75% players
+				skill 50%
+					mechanical 20%
+					technical 15%
+					team 5%
+					social 5%
+					strategy 10%
+					morale 20%
+					consistency 15%%
+				influence 25%
+				condition 25%
+			25% coachs
+				headcoach 75%
+				coachs 25%
+					skills
+					team morale
+
+------score
+		before brakets win 3, tie 1, lose 0
+
+------schedule
+		region
+		location
+		matches
+			date
+			time
+
+------gamehouse
+		bedroom
+			individual
+			dual
+		computer
+			tier
+			owner
+				org
+				player
+		space
+		energy
+
+------car
+		name
+		brand
+		tier
+		ocuppacy
+
+------region
+		location
+		tier
+		score
+		name
+		worlds spots
+
+------tournament structure
+		tier
+		schedule
+		type (bo3, bo2, bo5)
+			structure
+			brackets
+		chart
+		matches
+		premiation
+		transference of tier
+
+------game
+		seaseon
+		name
+		id
+		positions x5 names
+
+------location
+		name
+		climate
+		audiency
+		monetary
+		expensive
+		
+------randomizer
+		randomize
+			persons
+			location
+			game
+			organization
+			region
+			conference
+			car
+			gamehouse
+			matches
+			luck
+			train
+			audiency
+
+------luck
+		person
+			bad
+				value 20%
+				influency
+				retire
+				morale
+				death
+			good
+				value 20%
+				influency
+				morale
+			neutral
+				value 60%
+		organization
+			bad
+				value 20%
+				influency
+				morale
+			good
+				value 20%
+				influency
+				morale
+			neutral
+				value 60%
+		region
+			bad
+				value 20%
+				morale
+			good
+				value 20%
+				morale
+			neutral
+				value 60%
+		audiency
+			bad
+				value 20%
+				influency
+				morale
+			good
+				value 20%
+				influency
+				morale
+			neutral
+				value 60%
+		retire
+			age
+			chance
+			morale
+			psichology
+------new
+		person
+		organization
+
+------scouting
+		person
+
+------train
+		type
+		score
+		points
+		train
+			schedule
+			type
+				-team
+				-individual
+			objective
+				-mechanical
+				-technical
+				-strategy
+
+
+
+
+/definitions.json
