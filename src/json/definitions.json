@@ -1,71 +1,75 @@
 {
-	"person": {
-		"firstName": "",
-		"middleName": "",
-		"lastName": "",
-		"age": "",
-		"id": "",
-		"tier": "",
-		"proeficiency": "",
-		"role": "",
-		"organization": "",
-		"value": {
-			"buy": "",
-			"sell": "",
-			"maintain": ""
+	"control": {
+		"countRolesFull": "0",
+		"testRoles": {
+			"manager": "no",
+			"ceo": "no",
+			"headCoach": "no",
+			"coach": "no",
+			"scout": "no",
+			"cooker": "no",
+			"cleaner": "no",
+			"psychologist": "no",
+			"player": "no",
+			"media": "no",
+			"streamer": "no"
 		},
-		"capital": {
-			"earn": "",
-			"spent": ""
+		"skill": {
+			"mechanical": "1000",
+			"technical": "1000",
+			"team": "1000",
+			"social": "1000",
+			"strategy": "1000",
+			"morale": "1000",
+			"consistency": "1000"
 		},
-		"contract": {
-			"option": "",
-			"time": ""
-		},
-		"nacionality": "",
-		"region": "",
-		"morale": "",
-		"influency": {
-			"hinself": {
-				"audiency": "",
-				"team": "",
-				"staff": "",
-				"gamehouse": ""
+		"value":{
+			"buy": {
+			"s": {
+				"min": "30000",
+				"max": "20000"
 			},
-			"other": {
-				"audiency": "",
-				"team": "",
-				"staff": "",
-				"gamehouse": ""
+			"a": {
+				"min": "25000",
+				"max": "15000"
+			},
+			"b": {
+				"min": "20000",
+				"max": "10000"
 			}
 		},
-		"streaming": "",
-		"skill": {
-			"mechanical": "",
-			"technical": "",
-			"team": "",
-			"social": "",
-			"strategy": "",
-			"morale": "",
-			"consistency": ""
-		},
-		"mediaScore": "",
-		"titles": "",
-		"sponsors": "",
-		"condition": {
-			"luck": "",
-			"rest": "",
-			"stress": "",
-			"team": "",
-			"psichology": "",
-			"desease": {
-				"option": "",
-				"name": ""
+			"sell": {
+				"s": {
+					"min": "30000",
+					"max": "20000"
+				},
+				"a": {
+					"min": "25000",
+					"max": "15000"
+				},
+				"b": {
+					"min": "20000",
+					"max": "10000"
+				}
+			},
+			"maintain": {
+				"s": {
+					"min": "7000",
+					"max": "4000"
+				},
+				"a": {
+					"min": "5000",
+					"max": "3000"
+				},
+				"b": {
+					"min": "3000",
+					"max": "1000"
+				}
 			}
 		}
 	},
 	"definitions": {
-		"persons": {
+		"roles": {
 			"0": {
 				"name": "manager",
 				"maxAge": "60",
@@ -142,65 +146,53 @@
 				"minAge": "18",
 				"maxPersonRole": "10",
 				"personsInRole": "0"
-			},
-			"control": {
-				"lastRoleSelection": "x",
-				"countRolesFull": "0",
-				"testRoles": {
-					"manager": "no",
-					"ceo": "no",
-					"headCoach": "no",
-					"coach": "no",
-					"scout": "no",
-					"cooker": "no",
-					"cleaner": "no",
-					"psychologist": "no",
-					"player": "no",
-					"media": "no",
-					"streamer": "no"
-				}
 			}
 		}
 	},
-	"manager": {
-		"managing": ""
-	},
-	"ceo": {
-		"managing": ""
-	},
-	"headCoach": {
-		"coaching": "",
-		"playing": "",
-		"train": "",
-		"speciality": ""
-	},
-	"coach": {
-		"coaching": "",
-		"train": "",
-		"speciality": ""
-	},
-	"scout": {
-		"scouting": ""
-	},
-	"cooker": {
-		"coocking": ""
-	},
-	"psychologist": {
-		"psychologing": ""
-	},
-	"cleaner": {
-		"cleaning": ""
-	},
-	"media": {
-		"speciality": ""
-	},
-	"streamer": {
-		"streaming": ""
-	},
-	"player": {
-		"playing": "",
-		"train": "",
-		"position": ""
+	"person": {
+		"firstName": "",
+		"middleName": "",
+		"lastName": "",
+		"organization": "",
+		"capital": {
+			"earn": "",
+			"spent": ""
+		},
+		"contract": {
+			"option": "",
+			"time": ""
+		},
+		"nacionality": "",
+		"region": "",
+		"morale": "",
+		"influency": {
+			"himself": {
+				"audiency": "",
+				"team": "",
+				"staff": "",
+				"gamehouse": ""
+			},
+			"other": {
+				"audiency": "",
+				"team": "",
+				"staff": "",
+				"gamehouse": ""
+			}
+		},
+		"mediaScore": "",
+		"titles": "",
+		"sponsors": "",
+		"condition": {
+			"luck": "",
+			"rest": "",
+			"stress": "",
+			"team": "",
+			"psichology": "",
+			"desease": {
+				"option": "",
+				"name": ""
+			}
+		}
 	},
 	"organization": {
 		"name": "",
@@ -239,7 +231,7 @@
 		"titles": {
 			"tournament": "",
 			"tier": "",
-			"staff": ""
+			"persons": ""
 		}
 	},
 	"tournament": {
